@@ -1,5 +1,7 @@
 # Charlie test app
 
+<img width="2364" height="1854" alt="CleanShot 2025-10-02 at 15 50 48@2x" src="https://github.com/user-attachments/assets/50c416dd-df45-4837-8f73-5b469b89f7a4" />
+
 Next.js app scaffold placed at `/apps/charlie` using:
 - TypeScript + ESLint (Next core-web-vitals)
 - Tailwind CSS v4 (`@tailwindcss/postcss`)
