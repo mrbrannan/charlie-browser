@@ -1,0 +1,13 @@
+/* Tailwind v4 base */
+@import "tailwindcss";
+
+/* Register the HeroUI Tailwind v4 plugin (local wrapper). */
+@plugin './hero.ts';
+
+/* Ensure HeroUI source files are scanned for classnames */
+@source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+
+/* App-level defaults */
+:root { color-scheme: dark; }
+html { min-height: 100%; }
+body { background: var(--color-background, #0b1020); color: var(--color-foreground, #e2e8f0); }
